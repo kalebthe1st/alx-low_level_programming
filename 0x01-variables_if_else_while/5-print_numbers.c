@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - entry point
  *
@@ -10,6 +12,6 @@
 
 	for (n = 0; n < 10; n++)
 		printf("%d", n);
-	puts('\n');
+	printf("\n");
 	return (0);
 }

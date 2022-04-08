@@ -1,18 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - prints out all numbers under 10
+ * without using any char variables
+ * Return: 0
  */
-	int main(void)
+int main(void)
 {
-	int i;
+	int i = 48;
 
-	for (i = '0'; i <= '9'; i++)
+	while (i < 58)
+	{
 		putchar(i);
-		putchar('\n');
-
+		i++;
+	}
+	putchar('\n');
 	return (0);
 }
